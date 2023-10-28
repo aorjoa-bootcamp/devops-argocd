@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: petstore-api
-        image: ghcr.io/aorjoa-bootcamp/devops-java-example:174cc660162c3780db1c90ac35393ed292abc009
+        image: ghcr.io/aorjoa-bootcamp/devops-java-example:0a3d2ccdd19fa33f7593a179fe38317a455620d4
         imagePullPolicy: Always
         ports:
         - containerPort: 9090
